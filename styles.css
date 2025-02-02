@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+
+body {
+     background-image: url(eye.jpg);
+     background-position: 0,1px;
+     font: normal 16px "Pixelify Sans", serif;
+}
+
+head, body {
+     color:azure;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover {
+text-decoration: line-through;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: #faebd7;
+}
+
+h2, h3 {
+     color: deeppink;
+     text-align: center;
+}
+
+/* h4 {
+     font: 900 11px "Pixelify Sans", serif;
+} */
+
+.avatar {
+     width: 277px; 
+     height: 366px;
+     border-radius: 10%;
+     box-shadow: 4px 7px 14px rgba(255, 255, 255, 1);
+     position: relative; top: 45px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+    .MOST {
+        position: relative; bottom: -15px;
+    }
+    .weirdo {
+        position: relative; bottom: -15px;
+    }
+    .row {
+        position: relative; left: -8px;
+    }
+    .box > div {
+     font-size: 12px;
+    }
+}
+
+.info p {
+    margin: 25px;
+} 
+
+.MOST {
+     text-decoration: line-through;
+     padding-left: 50px;
+}
+
+.weirdo {
+     word-spacing: 25px;
+     padding-left: 50px;
+}
+
+.plot {
+    font-weight: bold;
+}
+
+/* Box Model */
+
+.container {
+     max-width: 750px;
+     margin: auto;
+}
+
+.social {
+     background: rgba(250, 235, 215, 0.1);
+     padding: 15px;
+     border-radius: 20px;
+     padding-left: 20px;
+     text-align: center;
+} 
+
+.soc {
+    font-size: 20px;
+}
+
+.box > div {
+    float: left;
+    background: #000;
+    height: 190px;
+    width: 25%;
+    border: 2px dashed deeppink;
+    box-sizing: border-box;
+    margin: auto;
+    padding-left: 10px;
+    border-radius: 8%;
+}
+
+.test {
+    margin: 70px;
+}
+
+/*td > h1 {
+    color: #ff1493;
+} */
+
+.card {
+    background: red;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+.bg-test {
+    background: rgb(250, 235, 215, 0.1);
+
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.form-g label {
+    display: block;
+    font-size: 12px;
+}
+
+.form-g input, .form-g textarea {
+    width: 100%;
+    height: 30%;
+    border: none;
+    border-right: 3px dotted deeppink;
+    border-bottom: 3px dotted deeppink;
+    background: transparent;
+    color:  rgb(243, 242, 243);
+    outline: none;
+    font-family: inherit;
+    padding: 15px 0px 30px 10px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+ .row > .form-g {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-g:last-child {
+    margin-right: 0;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
+
+  .info-t {
+    padding-left: 40px;
+  }
+
+  .btn {
+    cursor: pointer;
+    opacity: 0.9;
+    background: deeppink;
+    border: none;
+    color: white;
+    position: relative; left: 286px;
+    padding: 10px 50px 10px 50px;
+    font-family: inherit;
+  }
+
+/*.testbox {
+    position: relative; top: 200px;
+}
+
+ .testbox > .boxbox {
+    border-color: white;
+    padding: 1px;
+    background: #f1f1f0;
+    position: fixed;
+    left: 0px;
+    bottom: 385px;
+ }
+
+  .CB {
+    font-family: inherit;
+    color: rgb(253, 143, 0);
+    font-size: 50px;
+    height: 50px;
+    width: 50px; 
+    opacity: 0.9;
+    border: none;
+    border-right: #000;
+    border-bottom: #000;
+    border-top: #000;
+  }
